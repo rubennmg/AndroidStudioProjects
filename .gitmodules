@@ -1,0 +1,8 @@
+[submodule "ing_serv_p7_1"]
+	path = ing_serv_p7_1
+	url = https://rubennmg@bitbucket.org/uo282651/ing_serv_p7_1.git
+	branch = master
+[submodule "ing_serv_p7_2"]
+	path = ing_serv_p7_2
+	url = https://rubennmg@bitbucket.org/uo282651/ing_serv_p7_2.git
+	branch = master
