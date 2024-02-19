@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="asignaturas">
+        <item>@string/Lengua</item>
+        <item>@string/Matemáticas</item>
+        <item>@string/Sociales</item>
+        <item>@string/Naturales</item>
+        <item>@string/Música</item>
+        <item>@string/Plástica</item>
+    </string-array>
+    <string-array name="profesores">
+        <item>@string/Pedro</item>
+        <item>@string/Juan</item>
+        <item>@string/Marta</item>
+        <item>@string/Elena</item>
+        <item>@string/Juana</item>
+        <item>@string/Fran</item>
+    </string-array>
+</resources>

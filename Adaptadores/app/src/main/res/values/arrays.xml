@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arrays creados para la aplicación -->
+    <!-- Se crea un array de caracteres demominado "animales". Los componentes -->
+    <!-- son referencias a recursos 2-->
+    <string-array name="animales">
+        <item>@string/perro</item>
+        <item>@string/gato</item>
+        <item>@string/caballo</item>
+        <item>@string/leon</item>
+        <item>@string/mono</item>
+        <item>@string/vaca</item>
+    </string-array>
+</resources>
