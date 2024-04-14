@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppSharing</string>
+    <string name="permission_camera_rationale">Es necesario usar la cámara</string>
+    <string name="ok">Ok</string>
+    <string name="permission_camera_denied">Denegado el permiso de la cámara</string>
+</resources>
