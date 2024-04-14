@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FragmentList">
+
+    <fragment
+        android:id="@+id/FragmentList"
+        android:name="com.example.mvvm.ui.ListFragment"
+        android:label="@string/fragment_list_label"
+        tools:layout="@layout/fragment_list">
+
+        <action
+            android:id="@+id/action_FragmentList_to_NewCourseFragment"
+            app:destination="@id/NewCourseFragment" />
+        <action
+            android:id="@+id/action_FragmentList_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NewCourseFragment"
+        android:name="com.example.mvvm.ui.NewCourseFragment"
+        android:label="@string/new_course_fragment_label"
+        tools:layout="@layout/fragment_new_course">
+
+        <action
+            android:id="@+id/action_newCourseFragment_to_ListFragment"
+            app:destination="@id/FragmentList" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.mvvm.ui.DetailsFragment"
+        android:label="@string/fragment_details"
+        tools:layout="@layout/fragment_details">
+        <action
+            android:id="@+id/action_detailsFragment_to_FragmentList"
+            app:destination="@id/FragmentList" />
+    </fragment>
+</navigation>

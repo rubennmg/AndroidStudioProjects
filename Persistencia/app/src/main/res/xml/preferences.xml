@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Persistencia">
+        <EditTextPreference
+            android:defaultValue="book_repository"
+            android:key="archivename"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nombre del fichero" />
+    </PreferenceCategory>
+
+    <ListPreference
+        android:defaultValue="internal"
+        android:entries="@array/options"
+        android:entryValues="@array/values"
+        android:key="storage_area"
+        android:title="Localización del archivo"
+        app:useSimpleSummaryProvider="true"/>
+
+    <PreferenceCategory android:title="Presentación">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="isbn"
+            android:summaryOff="ocultar"
+            android:summaryOn="mostrar"
+            android:title="Mostrar ISBN" />
+    </PreferenceCategory>
+</PreferenceScreen>
